@@ -9,11 +9,15 @@ The prediction model uses several student-related features to estimate academic 
 
 # Sample Results: 
 RMSE: 5.42 - on average predictions of this model deviate by 5.42 points from actual scores. 
+
 Classification: 
 Accuracy: 66.5% 
+
 Recall ("pass" class): 93% - The model tends to over-predic "pass" (indicating room for improvement or balancing. 
+
 Precision ("pass" class): 69% - The model has moderate precision
 
 # Files: 
 student_performance_analysis.ipynb: main jupyter notebook containing the full analysis
+
 student_performance_balanced_final.xlsx: main dataset (1000 students, balanced Pass/Fail)
